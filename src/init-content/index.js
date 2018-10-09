@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import CardHolder from './components/sencardholder'
+import CardHolder from '../components/sencardholder';
 import * as serviceWorker from './init-content/serviceWorker';
-
 
 ReactDOM.render(<CardHolder />, document.getElementById('root'));
 
